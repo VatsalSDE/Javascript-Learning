@@ -3,7 +3,7 @@ const coding =["DSA" , "Development" ,"Machine Learning"];
 // coding.forEach( function (item) {
 //     console.log(item);
 // } )                                 // By using the simple functions
-// console.log();
+// // console.log();
 
 // coding.forEach( (item) => {
 //     console.log(item);  
@@ -14,7 +14,6 @@ const coding =["DSA" , "Development" ,"Machine Learning"];
 //     console.log(broo);
 // }
 // console.log();
-
 // coding.forEach(printme)
 // console.log();
 

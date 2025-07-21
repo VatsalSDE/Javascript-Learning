@@ -29,13 +29,9 @@ let val1;
 // val1 = null ?? 5
 // val1= undefined ?? 10
 val1 = 5 ?? null ?? 10 ?? 20
-
 console.log(val1);
-
 // Ternery operator 
-
 // condition ? true :false
-
 const ixeTeaprice =200
 
 ixeTeaprice >=100 ? console.log("Price is greater than 100") : console.log("Price is lower than 100");

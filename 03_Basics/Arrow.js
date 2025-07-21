@@ -19,12 +19,12 @@ const user={
 // }
 // lemon()
 
-// const code = ()=> {                               // => this is called arrow function 
-//     let username = "vatsal"
-//     console.log(this.username);
-//     console.log(this);
-// }
-// code()
+const code = ()=> {                               // => this is called arrow function 
+    let username = "vatsal"
+    console.log(this.username);
+    console.log(this);
+}
+code()
 
 // const addtwo = (num1,num2) => {
 //     return num1 + num2
@@ -39,5 +39,5 @@ and when parenthisis are used then no need to use the return statement
 This is mostly used in react js
 */
 
-const addtwo = (num1,num2) =>  ({username :"Vatsal"}) // for returning the object in need to wrap the object inside the parnethisis
-console.log(addtwo(3,4))
+// const addtwo = (num1,num2) =>  ({username :"Vatsal"}) // for returning the object in need to wrap the object inside the parnethisis
+// console.log(addtwo(3,4))

@@ -1,11 +1,11 @@
-function sayMyname(){
-console.log("V");
-console.log("a");
-console.log("t");
-console.log("s");
-console.log("a");
-console.log("l");
-}
+// function sayMyname(){
+// console.log("V");
+// console.log("a");
+// console.log("t");
+// console.log("s");
+// console.log("a");
+// console.log("l");
+// }
 
 // sayMyname()
 
@@ -35,4 +35,4 @@ function loginusermessage(username)
     return`${username} just logged in`
 }
 console.log(loginusermessage("vatsal"));
-console.log(loginusermessage());
+// console.log(loginusermessage());

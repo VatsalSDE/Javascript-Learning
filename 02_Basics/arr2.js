@@ -16,9 +16,9 @@ const dcHeroes = ["Superman","flash","Batman"]
 // let realanother = another_arr.flat(1) // this will make the array of array till layers like infinity so total if 1 or 2 so then like that 
 // console.log(realanother);
 
-// console.log(Array.isArray("Vatsal","hafu")); // will check whether the given element is an array or not
-// console.log(Array.from("Vatsal")); // will give the arry by spreading the characters from the string
-// console.log(Array.from({name:"Vatsal"})); //Interesting 
+console.log(Array.isArray("Vatsal","hafu")); // will check whether the given element is an array or not
+console.log(Array.from("Vatsal")); // will give the arry by spreading the characters from the string
+console.log(Array.from({name:"Vatsal"})); //Interesting 
 
 // let score1=100;
 // let score2=200;

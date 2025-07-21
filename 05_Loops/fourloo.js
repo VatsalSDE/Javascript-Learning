@@ -5,9 +5,9 @@ const myobj = {
     sb: 'Spring Boot'
 }
 
-// for (const key in myobj) {
-//     console.log(key);
-// }
+for (const value in myobj) {
+    console.log(value , ":" , myobj[value]);
+}
 // console.log();
 
 // for (const key in myobj) {
@@ -23,15 +23,15 @@ const myobj = {
 //     console.log(key , myarr[key]);
 // }
 
-const map =new Map()
-map.set(400 , "India")
-map.set(300 , "Nepal")
-map.set(200 , "Pakistan")
-map.set(100 , "America")
+// const map =new Map()
+// map.set(400 , "India")
+// map.set(300 , "Nepal")
+// map.set(200 , "Pakistan")
+// map.set(100 , "America")
 
-for (const key in map) {
-    console.log(key);
-}
+// for (const key in map) {
+//     console.log(key);
+// }
 
 // for in loop is not used for map because it  is not iteratable 
 
