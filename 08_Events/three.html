@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai aur Javascript</h1>
+    <button id="stop">Stop</button>
+    <button id="start">Start</button>
+</body>
+<script>
+    
+    // here we have to used the setint variable in the global scope only if and only then it would be usable in the next clear function event one 
+
+    let setint
+document.querySelector('#start').addEventListener('click',function(){
+     setint =  setInterval(() => {
+        console.log("Vatsal")
+    },1000);
+})     
+
+document.querySelector('#stop').addEventListener('click',function(){
+    clearInterval(setint);
+})
+</script>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai Aur Code</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste neque illo modi excepturi libero, sed nemo sunt maxime ipsa ipsum sint consequatur ex perspiciatis totam!</p>
+</body>
+<script>
+    const divi = document.createElement('div') //creating a div element 
+    console.log(divi);
+    divi.className="main"
+    divi.id=Math.round(Math.random()*10 + 1)
+    divi.setAttribute("title","Chai aur Patti") // This is more preffered
+    divi.style.backgroundColor="green"
+    divi.style.padding="10px"
+    divi.innerText="Vatsal Software Development Engineer"
+    // const addtext = document.createTextNode("Chai aur Coffee")
+
+    // divi.appendChild(addtext)
+    document.body.appendChild(divi)
+</script>
+</html>
