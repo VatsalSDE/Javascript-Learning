@@ -15,8 +15,8 @@
 const map =new Map()
 map.set(400 , "India")
 map.set(300 , "Nepal")
-map.set(200 , "Pakistan")
-map.set(100 , "America")
+map.set(200 , "America")
+map.set(201 , "America")
 map.set(399 , "India")
 
  // map is used for unique value pairs only and it don't hold duplicate value pairs 
@@ -31,6 +31,6 @@ const myobj ={
     'game 2': 'batman'
 }
 
-// for (const [key,value] of myobj) {
-//     console.log(key , ':-' ,value);
-// } // so object is not iteratable in the for of loop 
+for (const [key,value] in myobj) {
+    console.log(key , ':-' ,value);
+} // so object is not iteratable in the for of loop 

@@ -5,10 +5,10 @@ const coding =["DSA" , "Development" ,"Machine Learning"];
 // } )                                 // By using the simple functions
 // // console.log();
 
-// coding.forEach( (item) => {
-//     console.log(item);  
-// })                                  // By using the arrow functions
-// console.log();
+coding.forEach( (item) => {
+    console.log(item);  
+})                                  // By using the arrow functions
+console.log();
 
 // function printme (broo){
 //     console.log(broo);

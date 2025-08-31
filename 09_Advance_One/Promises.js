@@ -30,30 +30,30 @@
 //     console.log(user);
 // })
 
-const promisefour = new Promise(function(resolve,reject){
-    setTimeout(function(){
-        let error=false
-        if(!error){
-            resolve({username:"Vatsal" ,  password:"2345"})
-        }
-        else{
-            reject('ERROR : Something went wrong')
-        }
-    },1000)
-})
+// const promisefour = new Promise(function(resolve,reject){
+//     setTimeout(function(){
+//         let error=false
+//         if(!error){
+//             resolve({username:"Vatsal" ,  password:"2345"})
+//         }
+//         else{
+//             reject('ERROR : Something went wrong')
+//         }
+//     },1000)
+// })
 
-promisefour.then(function(user){
-    console.log(user)
-})
+// promisefour.then(function(user){
+//     console.log(user)
+// })
 
-promisefour
-.then((user)=>{
-    console.log(user);
-    return user.username
-})
-.catch(function(error){
-    console.log(error);
-})
+// promisefour
+// .then((user)=>{
+//     console.log(user);
+//     return user.username
+// })
+// .catch(function(error){
+//     console.log(error);
+// })
 
 
 // const promisefive = new Promise(function(resolve,reject){
@@ -81,27 +81,27 @@ promisefour
 // }).finally(() => console.log("The promise is already resolved or rejected")
 // )
 
-// const promisesix = new Promise(function(resolve,reject){
-//     setTimeout(function(){
-//         let error=false
-//         if(!error){
-//             resolve({username:"Javasript" ,  password:"2345"})
-//         }
-//         else{
-//             reject('ERROR : JS went wrong')
-//         }
-//     },1000)
-// })
+const promisesix = new Promise(function(resolve,reject){
+    setTimeout(function(){
+        let error=false
+        if(!error){
+            resolve({username:"Javasript" ,  password:"2345"})
+        }
+        else{
+            reject('ERROR : JS went wrong')
+        }
+    },1000)
+})
 
-// async function consumePromisesix(){
-//     try{
-//         const response = await promisesix
-//     console.log(response);
-//     }
-//     catch(error){
-//         console.log(error);
-//     }
-// }
+async function consumePromisesix(){
+    try{
+        const response = await promisesix
+    console.log(response.username);
+    }
+    catch(error){
+        console.log(error);
+    }
+}
 
 // consumePromisesix()
 

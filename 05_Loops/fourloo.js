@@ -18,10 +18,10 @@ for (const value in myobj) {
 //     console.log(`${key} :-  shortcut is for ${myobj[key]}`);
 // }
 
-// const myarr = ["Java" , "Scala" , "Python" , "Ruby"]
-// for (const key in myarr) {
-//     console.log(key , myarr[key]);
-// }
+const myarr = ["Java" , "Scala" , "Python" , "Ruby"]
+for (const key in myarr) {
+    console.log(key , myarr[key]);
+}
 
 // const map =new Map()
 // map.set(400 , "India")

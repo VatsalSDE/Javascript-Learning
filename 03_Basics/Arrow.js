@@ -5,10 +5,10 @@ const user={
 
     welcomemessage:function(){
         console.log(`${this.username} ,welcome to website`); // This refers to the current context
-        console.log(this);
+        // console.log(this);
     }
 }
-// user.welcomemessage()
+user.welcomemessage()
 // user.username="Sam"
 // user.welcomemessage()
 // console.log(this);

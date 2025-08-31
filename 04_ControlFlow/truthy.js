@@ -28,7 +28,7 @@ let val1;
 // val1 = 5 ?? 10
 // val1 = null ?? 5
 // val1= undefined ?? 10
-val1 = 5 ?? null ?? 10 ?? 20
+val1 = undefined ?? null ?? undefined
 console.log(val1);
 // Ternery operator 
 // condition ? true :false

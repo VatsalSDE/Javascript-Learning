@@ -16,22 +16,22 @@
 <script>
  const parentele = document.querySelector(".parent");
 // console.log(parentele);
-// console.log(parentele.children[0].innerHTML);
+// console.log(parentele.children[0].textContent);
 
 // for (let i = 0; i < parentele.children.length; i++) {
 //     console.log(parentele.children[i].innerHTML);
 // }
-// parentele.children[1].style.color="orange";
+parentele.children[1].style.color="orange";
 // console.log(parentele.firstElementChild); // this is the first 
-// console.log(parentele.lastElementChild); // this is the last 
+console.log(parentele.lastElementChild.innerHTML); // this is the last 
 
-const dayone = document.querySelector(".day")
-console.log(dayone);
-console.log(dayone.parentElement);
-console.log(dayone.nextElementSibling);
+// const dayone = document.querySelector(".day")
+// console.log(dayone);
+// console.log(dayone.parentElement);
+// console.log(dayone.nextElementSibling);
 
 
-console.log("NODES : ",parentele.childNodes);
+// console.log("NODES : ",parentele.childNodes);
 
 </script>
 </html>

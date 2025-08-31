@@ -45,9 +45,9 @@
 
 const userloggeddIn = true
 const debicard = true
-const loggedInfromGoogle = false
+const loggedInfromGoogle = false;
 const loggedInfromEmail = true
-if(userloggeddIn && debicard && 2==3){
+if(userloggeddIn && debicard){
     console.log("User is good to goo for the courses");
 }
 else{

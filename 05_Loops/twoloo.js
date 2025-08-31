@@ -20,4 +20,4 @@ do{
  console.log("score is "+score);
  score++
 }
-while(score<6)
+while(score<=8)
